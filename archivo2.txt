@@ -1,0 +1,15 @@
+
+
+￼cesar.net
+
+
+￼cesar.net
+
+
+￼cesar.net
+
+Para encontrar todas las vocales en una cadena de texto, puedes utilizar la expresión regular /[aeiou]/g. Esto buscará todas las letras "a", "e", "i", "o" y "u" en la cadena.
+Para encontrar todas las letras en una cadena de texto que no sean vocales, puedes utilizar la expresión regular /[^aeiou]/g. Esto buscará todas las letras que no sean "a", "e", "i", "o" o "u".
+Grupos:
+
+Para encontrar todas las palabras que contengan tanto "h" como "o" en una cadena de texto, puedes utilizar la expresión regular /\b(h\wo|\wo\wh)\b/g. Esto buscará todas las palabras que contengan "h" y "o" en cualquier orden y se detendrá en el primer espacio, signo de puntuación, etc. que encuentre.
